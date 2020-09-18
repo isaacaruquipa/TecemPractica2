@@ -1,0 +1,108 @@
+/**
+ * Estructura HTML5 - Final
+ */
+
+
+ html, body {
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight:bold;
+    background-color:rgb(209, 246, 185);
+    }
+
+header,section,footer,aside,article,nav
+   {
+   margin:1%;
+   }
+
+header{
+    background-color:rgb(12, 31, 116,0.9);
+    border-radius: 10px;
+    color:#FFF;
+    width:98%;
+    }
+header h1, header p{
+    margin-left: 20px;
+}
+
+
+nav{
+    background-color:rgb(73, 16, 87);
+    color:white; 	
+    width:98%;
+     height: 50px;
+    }
+
+section{
+    float:right;
+   background-color:rgba(14, 107, 6, 0.8);
+   box-shadow: 0 0 10px 5px black;
+    width:78%;
+    color:#FFF;
+    }
+
+article{
+   background-color: rgb(12, 24, 128,0.5);
+   width:98%;
+   color:#FFF;
+   border-radius: 15px;
+   }
+   article img{
+       width: 500px;
+       height: 300px;
+   }
+
+aside{
+    background-color:rgba(55, 10, 73, 0.6);
+    box-shadow: -1px 0px 10px 4px black;
+    width:18%;
+    height: 98%;
+     color:#FFF;
+    float:left;
+   }
+
+   aside img{
+       margin-left: 10px;
+       border-radius: 10px;
+   }
+
+footer{
+    background-color:rgb(53, 7, 83);
+   width:98%;
+   height: 100px;
+   color:#FFF;
+   clear:both;
+   text-align: center;
+   box-shadow: 0 0 13px 8px black;
+   }
+
+   footer .contenidopie{
+       margin-top: 40px;
+   }
+
+ul li a{
+    text-decoration: none;
+    color:white !important;
+}
+ul li{
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    border-spacing: 10px;
+}
+
+li a:hover{
+color: orangered;
+}
+
+
+article .tituloarticulo h2{
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+
+article .contenidoarticulo{
+    margin:20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario nombre, mail, carnet</title>
+  <link rel="stylesheet" href="../assets/css/w3shool.css">
+</head>
+<body>
+
+    <div class="w3-container">
+      <h2>Haz Click para mostrar el formulario</h2>
+      <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Login</button>
+    
+      <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+    
+          <div class="w3-center"><br>
+            <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+            <img src="https://w7.pngwing.com/pngs/340/946/png-transparent-avatar-user-computer-icons-software-developer-avatar-child-face-heroes.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+          </div>
+    
+          <form class="w3-container" action="">
+            <div class="w3-section">
+              <label><b>Correo electronico</b></label>
+              <input class="w3-input w3-border w3-margin-bottom" type="email" placeholder="Ingrese su correo electronico" name="correo" required>
+              <label><b>Carnet</b></label>
+              <input class="w3-input w3-border" type="number" placeholder="Carnet..." name="carnet" required>
+              <label><b>Curriculum</b></label>
+              <textarea class="w3-input w3-border w3-margin-bottom" cols="5" rows="4" type="curriculum" placeholder="Ingrese su curriculum..." name="curriculum" required>
+             </textarea>
+
+              <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Procesar</button>
+              <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Recuerdame
+            </div>
+          </form>
+    
+          <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+            <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancelelar</button>
+          </div>
+
+
+    
+        </div>
+      </div>
+    </div>
+                
+    </body>
+    </html>
+
+
+</body>
+</html>
